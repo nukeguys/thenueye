@@ -1,11 +1,13 @@
-import { Meta } from '../../layout/Meta';
-import { Main } from '../../main';
+import { Meta } from '../../../layout/Meta';
+import { Main } from '../../../main';
+import Content from './Content';
+import Header from './Header';
+import Intro from './Intro';
 
 export default function OneHitWonders() {
   return (
     <Main
       hideHeader
-      hideFooter
       fullWidth
       meta={
         <Meta
@@ -14,7 +16,11 @@ export default function OneHitWonders() {
         />
       }
     >
-      One-Hit Wonders in Sports
+      <div className="px-4">
+        <Header />
+        <Intro />
+        <Content />
+      </div>
     </Main>
   );
 }

@@ -29,11 +29,9 @@ export default function PostCard({
         </a>
       </Link>
       <div className="bg-white flex flex-col justify-start p-6">
-        <Link href={`topic/${topic.id}`}>
-          <a className="text-blue-700 text-sm font-bold uppercase pb-4">
-            {topic.name}
-          </a>
-        </Link>
+        <a className="text-blue-700 text-sm font-bold uppercase pb-4">
+          {topic.name}
+        </a>
         <Link href={`post/${id}`}>
           <a className="text-3xl font-bold hover:text-gray-700 pb-4">{title}</a>
         </Link>

@@ -65,11 +65,12 @@ const Main = ({
           >
             <div className="w-max-full mx-auto flex flex-col sm:flex-row items-center text-sm font-bold uppercase mt-0 py-2 overflow-x-auto hide-scrollbar">
               {topics.map((topic) => (
-                <Link key={topic.id} href={`topic/${topic.id}`}>
-                  <a className="hover:bg-gray-400 rounded py-1 px-4 mx-2">
-                    {topic.name}
-                  </a>
-                </Link>
+                <a
+                  key={topic.id}
+                  className="hover:bg-gray-400 rounded py-1 px-4 mx-2"
+                >
+                  {topic.name}
+                </a>
               ))}
             </div>
           </div>

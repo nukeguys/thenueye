@@ -12,3 +12,9 @@
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+svg text {
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
