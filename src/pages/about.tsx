@@ -2,20 +2,7 @@ import { Meta } from '../layout/Meta';
 import { Main } from '../main';
 
 const About = () => (
-  <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-      recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore
-      voluptatibus distinctio recusandae autem esse explicabo molestias officia
-      placeat, accusamus aut saepe.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-      recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore
-      voluptatibus distinctio recusandae autem esse explicabo molestias officia
-      placeat, accusamus aut saepe.
-    </p>
-  </Main>
+  <Main meta={<Meta title="about" description="about" />}>about</Main>
 );
 
 export default About;
